@@ -30,7 +30,7 @@ we analyze **22,872 team-games**. The columns most relevant to our question are:
 
 We kept only team rows, dropped games missing `result` or `firstdragon`, and cast both
 to integers. Exploratory analysis shows that teams securing the first dragon win
-**57.9%** of the time, compared to **42.1%** for teams that do not — a clear early-game
+**57.9%** of the time, compared to **42.1%** for teams that do not, a clear early-game
 advantage that motivates a formal hypothesis test.
 
 ## Assessment of Missingness
@@ -67,8 +67,8 @@ it achieves **~73.7% test accuracy**, comfortably above the 50% baseline of gues
 
 ## Final Model
 
-*(In progress.)* We plan to engineer additional features — such as early objective
-counts and gold/XP differentials at multiple timestamps — and tune hyperparameters with
+*(In progress.)* We plan to engineer additional features, such as early objective
+counts and gold/XP differentials at multiple timestamps, and tune hyperparameters with
 `GridSearchCV` to improve over the baseline.
 
 ## Fairness Analysis

@@ -1,0 +1,5 @@
+# Large raw data (download from oracleselixir.com)
+2022_LoL_esports_match_data_from_OraclesElixir.csv
+*.csv
+.DS_Store
+.ipynb_checkpoints/
